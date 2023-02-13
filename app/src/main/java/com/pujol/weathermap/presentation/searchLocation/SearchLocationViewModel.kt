@@ -68,7 +68,7 @@ class SearchLocationViewModel @Inject constructor(
             is SearchLocationEvent.OnNavigateToMap -> {
                 viewModelScope.launch {
                     _uiEvent.send(UiEvent.NavigatePop(event.locationCoordinate))
-                    addSearchHistoryItemUseCase(event.locationCoordinate)
+                    addSearchHistoryItem(event.locationCoordinate)
                 }
             }
             is SearchLocationEvent.OnNavigateUp -> {
