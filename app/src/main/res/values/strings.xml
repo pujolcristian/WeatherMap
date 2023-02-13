@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">WeatherMap</string>
+    <string name="sunrice">Amanecer</string>
+    <string name="suntset">Atardecer</string>
+    <string name="hour">Hora</string>
+    <string name="wind">Viento</string>
+    <string name="presure">Presión</string>
+    <string name="humidity">Humedad</string>
+    <string name="acualized">Actualizado el: </string>
+    <string name="look_climate_locality">Busca el clima de una localidad</string>
+    <string name="no_search_performed">Aún no has realizado ninguna busqueda</string>
+    <string name="result_no_found">No se encotraron resultados</string>
+    <string name="recent_searches">Busquedas recientes</string>
+    <string name="search_results">Resultados de busqueda</string>
+    <string name="enter_city">Debe Ingresar una localidad</string>
+</resources>
